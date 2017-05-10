@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.List"%>
+<%
+ String accountName = (String)request.getAttribute("accountName");
+%>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Pagina de Docentes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+  </head>
+<body>
+<main class="row">
+<!-- Menú de navegación del sitio -->
+<nav class="vertical">
+<ul class="col-md-4">
+  <li><a>Inscribir Alumno</a>
+  <li><a>Obtener Salones</a>
+  <li><a>Crear Prueba</a>
+  <li><a>Ver Alumno</a>
+</ul>
+</nav>
+<main class="col-md-8">
+	<!-- Contenido principal -->
+	<h1>BIENVENIDO</h1>
+    <h2><%= accountName %></h2>
+
+	<p>¡Bienvenido docente <%= accountName %> usted podra gestionar todo lo que necesite desde aqui.!
+  </main>
+</main>
+  </body>
+</html>

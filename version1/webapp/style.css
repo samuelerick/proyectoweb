@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+nav a{
+  display: inline-block;
+  color: black;
+  transition: 0.1s;
+}
+a{
+  transition: 1s;
+}
+a:hover{
+  text-decoration: none;
+  background-color: lightgray;
+}
+.aula{
+  display: inline-block;
+  color: white;
+  transition: 0.1s;
+  background-color: #800040;
+}
+.aula:hover{
+  text-decoration: none;
+  color: #400040;
+}
+nav a:hover,.select{
+  text-decoration: underline;
+  color: #800040;
+}
+nav li{
+  font-size: 25px;
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  transition: 0.5s;
+}
+footer{
+  background-color: gray;
+  padding: 20px;
+  color: white;
+  margin-top: 30px;
+}
+#cabezera{
+  margin-bottom: 100px;
+}
+.noticia{
+  border-top: 5px solid #800040;
+  padding: 10px;
+}
+.title{
+  color: #800040;
+  font-weight: bold;
+}
+.comunicados{
+  border-left: 3px inset #800040;
+}
+.form{
+  padding: 10px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  border: 5px solid #800040;
+}
+.centrado{
+  display: block;
+  width: 25%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.vertical{
+  height: 100%;
+}
+.vertical li{
+  display: list-item;
+}
