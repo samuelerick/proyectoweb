@@ -1,0 +1,23 @@
+Roles:
+	Admin: el administrador que puede:
+		1.Crear cuentas para profesores y otros admins
+		2.Crear Fichas (Para teoria) o Libretas de Notas(Para Lab);
+		3.Tener la capacidad para editar y borrar lo del punto 2
+		4.Tener la capacidad para editar y borrar lo del punto 1
+		5.Poder crear noticias,comunicados y eventos
+	Profesor: el tipico profesor que Jose Antonio odia, que puede:
+		1.Crear cuentas de alumnos
+		2.Tener la capacidad de borrar y editar lo del punto 1
+		3.Crear Pruebas(Practicas)
+		4.Tener la capacidad de borrar y editar lo del punto 2
+		5.Llenar Fichas y poder crear un anecdotario (Para Teoria);
+		6.Poder llenar las notas(Para Lab);
+	Alumno: el alumno que puede:
+		1.Poder hacer las pruebas o practicas
+		2.Poder jugar(juegos educativos que personas como Jose no entenderias)
+		3.Poder Ver sus notas en tiempo real(ya lo explicare)
+
+Como se Logean:
+	El alumno se loguea ingresando a "aula virtual" en la pagina del colegio
+	El Profesor y Admin se loguean en una pagina diferente
+	
