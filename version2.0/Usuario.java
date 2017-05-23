@@ -1,4 +1,3 @@
-package pw2;
 
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.IdGeneratorStrategy;
