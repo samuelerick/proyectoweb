@@ -8,7 +8,6 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
-import com.google.appengine.datanucleus.annotations.Unowned;
 
 @PersistenceCapable(identityType = IdentityType.APPLICATION)
 public class Usuario {
@@ -30,7 +29,6 @@ public class Usuario {
 	private boolean state;
 	
 	@Persistent
-	@Unowned
 	private String rol;
 	
 	public Usuario(){}
