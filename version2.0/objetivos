@@ -15,7 +15,6 @@ Roles:
 		6.Poder llenar las notas(Para Lab);
 	Apoderado: los apoderados  que puede:
 		1.Poder ver el avance de sus hijos
-		2.Poder ver sus notas en tiempo real(ya lo explicare)
 	Usuario ajeno al colegio:
 		1.Ver el index principal
 		2.Enviar consultas
