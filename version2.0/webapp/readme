@@ -1,0 +1,8 @@
+Nuestro proyecto se divide en 3 partes
+
+En la carpeta colegio iran todos los archivos que usuarios normales pueden acceder, que son todos los archivos de la version1.0 , es la pagina de contacto,servicios,mision,vision.
+
+En la carpeta Admin iran todos las páginas que pueden ser accedidas por el admin, y que contiene cosas como crearCuenta.jsp y eso
+
+En la carpeta Profesor iran todos las páginas que pueden ser accedidas por el profesor, y que continen cosas como inscribirAlumno.jsp o alumno.jps(según el nivel de alegría de José)
+
