@@ -26,11 +26,11 @@ public class Usuario {
 	private String email;
 	
 	@Persistent 
-	private boolean state;
+	private boolean state;//true activo, false desactivado
 	
 	@Persistent
 	@Unowned
-	private Rol rol;
+	private Rol rol; //el usuario tendra un rol(profesor,admin,etc)
 	
 	public Usuario(){}
 	public Usuario(String nombre,String apellido,String email,boolean state){
