@@ -5,8 +5,7 @@ Adolfo ex-Copetón:
   - [x] Dependiendo de su rol enviarlo a su página predeterminada
   
 Samuel:
-  - [ ] Crear el formulario de creacion de cuenta para la clase Usuario (usar como ejemplo el laboratorio 4: http://relacionesjdo.appspot.com/)
-  - [ ] la relacion es de uno a muchos(un rol puede ser usado por muchos usuarios y us usuario solo puede tener un rol)
+  - [ ] Crear el formulario de creacion de cuenta para la clase Usuario
   
 Renzo:
   - [ ] Crea las páginas a las cuales hristo redericciona los usuarios
