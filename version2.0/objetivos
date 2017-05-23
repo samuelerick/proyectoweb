@@ -5,6 +5,7 @@ Roles:
 		3.Tener la capacidad para editar y borrar lo del punto 2
 		4.Tener la capacidad para editar y borrar lo del punto 1
 		5.Poder crear noticias,comunicados y eventos
+		6.Poder leer y responder consultas
 	Profesor: el tipico profesor que Jose Antonio odia, que puede:
 		1.Crear cuentas de alumnos
 		2.Tener la capacidad de borrar y editar lo del punto 1
@@ -17,6 +18,6 @@ Roles:
 		2.Poder ver sus notas en tiempo real(ya lo explicare)
 
 Como se Logean:
-	El alumno se loguea ingresando a "aula virtual" en la pagina del colegio
-	El Profesor y Admin se loguean en una pagina diferente
+	Se usa el formulario creaddo por la API de google, se obtendra el correo
+	y se buscara en los usuarios guardados.
 	
