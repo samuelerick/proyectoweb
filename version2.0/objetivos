@@ -16,6 +16,9 @@ Roles:
 	Apoderado: los apoderados  que puede:
 		1.Poder ver el avance de sus hijos
 		2.Poder ver sus notas en tiempo real(ya lo explicare)
+	Usuario ajeno al colegio:
+		1.Ver el index principal
+		2.Enviar consultas
 
 Como se Logean:
 	Se usa el formulario creaddo por la API de google, se obtendra el correo
