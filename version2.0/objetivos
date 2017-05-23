@@ -12,10 +12,9 @@ Roles:
 		4.Tener la capacidad de borrar y editar lo del punto 2
 		5.Llenar Fichas y poder crear un anecdotario (Para Teoria);
 		6.Poder llenar las notas(Para Lab);
-	Alumno: el alumno que puede:
-		1.Poder hacer las pruebas o practicas
-		2.Poder jugar(juegos educativos que personas como Jose no entenderias)
-		3.Poder Ver sus notas en tiempo real(ya lo explicare)
+	Apoderado: los apoderados  que puede:
+		1.Poder ver el avance de sus hijos
+		2.Poder ver sus notas en tiempo real(ya lo explicare)
 
 Como se Logean:
 	El alumno se loguea ingresando a "aula virtual" en la pagina del colegio
