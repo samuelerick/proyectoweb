@@ -1,3 +1,4 @@
+package pw2;
 
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.IdGeneratorStrategy;
@@ -26,20 +27,21 @@ public class Usuario {
 	private String email;
 	
 	@Persistent 
-	private boolean state;//true activo, false desactivado
+	private boolean state;
 	
 	@Persistent
 	@Unowned
-	private Rol rol; //el usuario tendra un rol(profesor,admin,etc)
+	private String rol;
 	
 	public Usuario(){}
-	public Usuario(String nombre,String apellido,String email,boolean state){
+	public Usuario(String nombre,String apellido,String email,boolean state, String rol){
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.email = email;
 		this.state = state;
-	
+		this.rol = rol;
+		
 	}
 	
 	public String getIdUsuario(){
@@ -74,17 +76,11 @@ public class Usuario {
 	public void setState(boolean state) {
 		this.state = state;
 	}
-	public Rol getRol(){
+	public String getRol(){
 		return this.rol;
 	}
-	public String isRol(){
-		return this.rol.getRol();
-	}
-	public void setRol(Rol rol){
+	public void setRol(String rol){
 		this.rol = rol;
-	}
-	public boolean isStateRol(){
-		return this.rol.isState();
 	}
 	
 
